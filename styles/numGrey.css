@@ -1,0 +1,426 @@
+:root {
+font-size: 16px;
+}
+* {
+  margin:0;
+  padding: 0;
+}
+
+body{
+  font-family: 'open sans', sans-serif;
+  background:#343a40;
+  color:#F2F2F2;
+  margin:0;
+  margin-left:auto;
+  margin-right: auto;
+}
+
+h3{
+  margin-top:40px;
+  margin-bottom: 20px;
+  color:#ccff99;
+}
+/*=======navbar*/
+
+
+.logo2{
+  position:absolute;
+  margin:10px;
+  padding:10px;
+}
+
+.nav1 a{
+  text-align: center;
+}
+
+#mainNavBar .nav-link{
+  color: #ccff99;
+}
+
+#mainNavBar .nav-link:hover{
+  color:#ff5050;
+  font-weight:bold;
+  border-bottom: 1px solid #808080;
+  transition: color 0.5s ease-out;
+}
+
+.active>.nav-link{
+  background-color:#ccff99;
+  font-weight:bold;
+}
+
+#currentPage .nav-link{
+   color:rgb(0,0,0);
+}
+
+
+
+/*===================BANNER==================================*/
+
+header {
+  background:#343a40;
+  background-image:url("../images/header.jpg");
+  background-position: right;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  height : 800px;
+ }
+
+section{
+  margin-top: 80px;
+  width:90%;
+  margin-right: auto;
+  margin-left: auto;
+  text-align: center;
+}
+
+.banner{
+  margin-left: -150px;
+}
+
+.banner2{
+    padding-left: 25%;
+}
+
+.banner h1{
+  position:relative;
+  padding-top: 30px;
+  text-align: center;
+  font-family : "Leckerli One", cursive;
+  font-size : 2rem;
+  color : #FF1D25;
+}
+
+.banner h4{
+  font-family : Open Sans;
+  font-size : 1.1rem;
+  font-weight: 100;
+  color : #BBFE9B;
+  position: relative;
+  text-align: center;
+  margin-left: -100px; 
+}
+
+
+
+
+/*================testimonial quotes section===========*/
+/* Slideshow container*/ 
+.slideshow-container {
+  position: relative;
+  background: rgb(17,0,0);
+  width: 100%;
+  margin:auto;
+  color:rgb(255,255,255);
+  bottom:0;
+}
+
+/* Slides */
+.mySlides {
+  display: none;
+  padding: 20px 20px;
+  text-align: center;
+  /*font-weight: bold;*/
+}
+
+/* Next & previous buttons */
+.prev, .next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  margin-top: -30px;
+  padding: 16px;
+  color: #888;
+  font-weight: bold;
+  font-size: 1.25rem;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+}
+
+/* Position the "next button" to the right */
+.next {
+  position: absolute;
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add different color and enlarge size */
+.prev:hover, .next:hover {
+  color: #FF1D25;
+ -webkit-transform: scale(1.5);
+        -ms-transform: scale(1.5);
+        transform: scale(1.5);
+}
+
+/* The dot/bullet/indicator container */
+.dot-container3 {
+    text-align: center;
+    padding: 5px;
+    background: rgb(17,0,0);
+ }
+
+/* The dots/bullets/indicators */
+.dot3 {
+  cursor: pointer;
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+/* Add a background color to the active dot/circle */
+.active, .dot:hover {
+  background-color: #FF1D25;
+}
+
+/* Add an italic font style to all quotes */
+q {font-style: italic;}
+
+/* Add a green color to the author */
+.author {
+  color: #BBFE9B;
+}
+
+/*======gallery=====*/
+.lightbox-gallery img{
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+.lightbox-gallery{
+  margin-top: 30px;
+}
+
+
+.lightbox-gallery a{
+  color: #ff5050;
+
+}
+
+.lightbox-gallery a:hover{
+  color:#ccff99;
+  font-weight:bold;
+  border-bottom: 1px solid #ccff99;
+}
+.example-image{
+  border: solid 1px #ffffff;
+}
+/*======contact form==*/
+
+input[type=text], select, textarea {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: vertical;
+}
+
+/*button */
+#form-1 button[type=button] {
+  background-color: #ccff99;
+  color: rgb(0,0,0);
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+/*button:hover */
+#form-1 button[type=button]:hover {
+  background-color:#343a40;
+  color: rgb(255,255,255);
+  font-size: 1.5rem;
+}
+
+.container-cp {
+  border-radius: 5px;
+  background:#f2f2f2; 
+  background-image:url("../images/coffee-beans_sm.jpg");
+  padding: 20px;
+  margin-bottom: 40px;
+  margin:auto;
+}
+
+#form-1 h4{
+  color:#ff5050;
+  margin-left: 10%;
+  margin-right: 10%;
+}
+
+#myBtn{
+  color: rgb(0,0,0);
+  padding: 4px 4px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+#myBtn:hover {
+  background-color: #ff5050;
+  color: rgb(255,255,255);
+  padding: 4px 4px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 1.2rem;
+}
+
+/*=========address*/
+
+.testAddress{
+  margin-top: 40px;
+}
+.address3{
+  color:#BBFE9B;
+  font-size: 1rem;
+  
+}
+
+.address-holder3{
+  font-size: 0.75rem;
+}
+
+.address-holder3 h6{
+  font-size: 0.75rem;
+}
+
+.cp-location-title{
+  color:#ccff99;
+}
+
+.menuI a{
+  color:#ff5050;
+ 
+}
+.menuI a:hover{
+  color:#ccff99;
+  text-decoration: none;
+ 
+}
+
+.imageT img{
+    width: 90%;
+    margin:auto;
+  }
+
+
+
+
+/*=================================================*/
+footer{
+  display: inline-block;
+  width:100%;
+  font-size: 0.75rem;
+  background-color: rgb(17,0,0);
+  text-align: center;
+  padding:5px;
+  margin-top: 40px;
+}
+footer a{
+  color:#ff5050;
+}
+footer a:hover{
+  color:#ccff99;
+}
+footer span {
+    font-family: 'Dancing Script', cursive;
+    font-size: 1.2rem;
+    color:#ccff99;
+}
+
+
+/*========================================================================*/
+/*media queries... we ar doing mobile 1st */
+@media screen and (min-width: 424px){
+  header{
+  height:675px;
+  }
+
+}
+
+
+
+@media screen and (min-width : 600px){
+  header{
+    height: 768px;
+    background-position: center ;
+    }
+
+  .banner h1{
+    font-size:4rem;
+    text-align: left;
+    margin-left: 18%;
+    padding-top: 400px;
+    }
+
+  .banner h4{
+    font-family : Open Sans;
+    font-size:  1.5rem;
+    color : #BBFE9B;
+    text-align: left;
+    margin-left: 22%;
+    }
+
+  .banner2{
+    padding-left: 0;
+    }
+
+  .lightbox-gallery img{
+    margin:5px;
+    }
+
+ 
+  .testAddress{
+    width: 90%;
+    margin: auto;
+    }
+
+
+  section{
+    margin-top: 80px;
+    }
+
+}
+
+
+
+@media screen and (min-width: 992px){
+  #story{
+    margin-left: auto ;
+    margin-right: auto ;
+    margin-bottom: 20px;
+    margin-top: 20px;
+    text-align: center;
+  }
+
+  .imageT{
+    margin-bottom: 40px;
+  }
+
+ .imageT img{
+    float:left;
+
+    width: 50%;
+    margin:auto;
+  }
+
+
+  #story .blurp{
+    float: left;
+    width:36%;
+    margin:auto 7%;
+  }
+
+ 
+
+  #TheMenu{
+    clear:both;
+  }
+}
