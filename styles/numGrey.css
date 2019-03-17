@@ -60,8 +60,9 @@ h3{
 header {
   background:#343a40;
   background-image:url("../images/baristaR.jpg");
+  background-position: center;
   /*background-image:url("../images/header.jpg");*/
-  background-position: right;
+  /*background-position: right;*/
   background-repeat: no-repeat;
   background-size: cover;
   position: relative;
@@ -103,7 +104,9 @@ section{
   margin-left: -100px; 
 }
 
-
+.blurp2{
+  text-align: center;
+}
 
 
 /*================testimonial quotes section===========*/
@@ -323,12 +326,13 @@ input[type=text], select, textarea {
 footer{
   display: inline-block;
   width:100%;
-  font-size: 0.75rem;
+  font-size: 1rem;
   background-color: rgb(17,0,0);
   text-align: center;
   padding:5px;
   margin-top: 40px;
 }
+
 footer a{
   color:#ff5050;
 }
@@ -337,7 +341,7 @@ footer a:hover{
 }
 footer span {
     font-family: 'Dancing Script', cursive;
-    font-size: 1.2rem;
+    font-size: 1.1rem;
     color:#ccff99;
 }
 
