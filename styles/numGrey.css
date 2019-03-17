@@ -334,10 +334,10 @@ footer{
 }
 
 footer a{
-  color:#ff5050;
+  color:##ccff99;
 }
 footer a:hover{
-  color:#ccff99;
+  color:#ff5050;
 }
 footer span {
     font-family: 'Dancing Script', cursive;
