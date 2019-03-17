@@ -336,6 +336,10 @@ footer a{
 footer a:hover{
   color:#ff5050;
 }
+footer a:visited{
+  color:#ffff66;
+}
+
 footer span {
     font-family: 'Dancing Script', cursive;
     font-size: 1.2rem;
