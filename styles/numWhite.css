@@ -208,7 +208,10 @@ q {font-style: italic;}
 }
 .example-image{
   border: solid 4px #343a40;
+  margin-left: -8px;
 }
+
+
 /*======contact form==*/
 
 input[type=text], select, textarea {

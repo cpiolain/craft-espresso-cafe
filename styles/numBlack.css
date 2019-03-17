@@ -208,6 +208,7 @@ q {font-style: italic;}
 }
 .example-image{
   border: solid 1px #ffffff;
+  margin-left: -8px;
 }
 /*======contact form==*/
 

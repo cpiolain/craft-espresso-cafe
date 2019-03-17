@@ -59,7 +59,8 @@ h3{
 
 header {
   background:#343a40;
-  background-image:url("../images/header.jpg");
+  background-image:url("../images/baristaR.jpg");
+  /*background-image:url("../images/header.jpg");*/
   background-position: right;
   background-repeat: no-repeat;
   background-size: cover;
@@ -95,7 +96,7 @@ section{
 .banner h4{
   font-family : Open Sans;
   font-size : 1.1rem;
-  font-weight: 100;
+  font-weight: 150;
   color : #BBFE9B;
   position: relative;
   text-align: center;
@@ -208,6 +209,7 @@ q {font-style: italic;}
 }
 .example-image{
   border: solid 1px #ffffff;
+  margin-left: -8px;
 }
 /*======contact form==*/
 
@@ -222,10 +224,14 @@ input[type=text], select, textarea {
   resize: vertical;
 }
 
+#form-1{
+  color:#343a40;
+}
+
 /*button */
 #form-1 button {
-  background-color: #ccff99;
-  color: rgb(0,0,0);
+  background-color:#343a40;
+  color: rgb(255,255,255);
   padding: 12px 20px;
   border: none;
   border-radius: 4px;
@@ -234,15 +240,15 @@ input[type=text], select, textarea {
 
 /*button:hover */
 #form-1 button:hover {
-  background-color:#343a40;
-  color: rgb(255,255,255);
+  background-color: #ccff99;
+  color: rgb(0,0,0);
   font-size: 1.5rem;
 }
 
 .container-cp {
   border-radius: 5px;
   background:#f2f2f2; 
-  background-image:url("../images/coffee-beans_sm.jpg");
+  /*background-image:url("../images/coffee-beans_sm.jpg");*/
   padding: 20px;
   margin-bottom: 40px;
   margin:auto;
