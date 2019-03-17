@@ -58,7 +58,7 @@ h3{
 /*===================BANNER==================================*/
 
 header {
-  background:#343a40;
+  background:rgb(0,0,0);
   background-image:url("../images/baristaR.jpg");
   background-position: center;
   /*background-image:url("../images/header.jpg");*/
