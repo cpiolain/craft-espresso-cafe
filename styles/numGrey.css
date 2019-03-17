@@ -223,7 +223,7 @@ input[type=text], select, textarea {
 }
 
 /*button */
-#form-1 button[type=button] {
+#form-1 button {
   background-color: #ccff99;
   color: rgb(0,0,0);
   padding: 12px 20px;
@@ -233,7 +233,7 @@ input[type=text], select, textarea {
 }
 
 /*button:hover */
-#form-1 button[type=button]:hover {
+#form-1 button:hover {
   background-color:#343a40;
   color: rgb(255,255,255);
   font-size: 1.5rem;
@@ -248,7 +248,7 @@ input[type=text], select, textarea {
   margin:auto;
 }
 
-#form-1 h4{
+#form-a h4{
   color:#ff5050;
   margin-left: 10%;
   margin-right: 10%;

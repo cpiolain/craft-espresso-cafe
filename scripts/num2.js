@@ -35,3 +35,9 @@ function topFunction() {
   document.body.scrollTop = 0;
   document.documentElement.scrollTop = 0;
 }
+
+// contact form refresh and alert
+function formSubmit() {
+  alert('Thanks for your input! Have a wonderful day!');
+  return true;
+}
