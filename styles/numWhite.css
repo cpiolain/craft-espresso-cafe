@@ -348,15 +348,12 @@ footer span {
 
 
 /*========================================================================*/
-/*media queries... we ar doing mobile 1st */
+/*media queries...  doing mobile 1st */
 @media screen and (min-width: 424px){
   header{
   height:675px;
   }
-
 }
-
-
 
 @media screen and (min-width : 600px){
   header{
@@ -393,14 +390,10 @@ footer span {
     margin: auto;
     }
 
-
   section{
     margin-top: 80px;
     }
-
 }
-
-
 
 @media screen and (min-width: 992px){
   #story{
